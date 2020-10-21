@@ -1,13 +1,83 @@
-body {
+html{
+  min-height: 100%;
+}
+
+.Bod {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url(/assets/backg5.jpg) no-repeat;
+  background-size: 100%;
+  background-position: top;
+  background-color: #468652;
+  min-height: 100%;
+  color: #05386B;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.MyNav {
+  background-image: linear-gradient(to bottom, #05386B , #57e6c9d2) !important;
+  /* background-color: #05386B !important; */
+  margin-bottom: 50px !important;
+}
+
+.nav-brand{
+  color: #ff5c2f !important;
+  font-weight: bold;
+  font-family: cursive;
+  font-size: 30px !important;
+  text-shadow: -1px 1px 0 #000;
+}
+
+.dash-title{
+  color: #EDF5E1;
+  font-weight: bolder;
+  font-family: cursive;
+  text-shadow: -1px 1px 5px #000;
+}
+
+.order-card {
+  margin-top: 20px !important; 
+  padding: 0 !important;
+  border-radius: 10px !important;
+}
+
+.form-but {
+  background-color: #ff5c2f !important;
+  border: none !important;
+}
+.add-but {
+  /* background-color: #8EE4AF !important; */
+  background-color: #ff5c2f !important;
+  float:right !important;
+}
+
+.links{
+  color: #05386B;
+}
+.links:hover {
+  text-decoration: none;
+}
+
+.pad{
+  background-image: linear-gradient(to bottom right,white,#88f1dcd2, #fc7a57) !important;
+  padding: 30px;
+  border-radius: 20px;
+  display: block;
+  margin-bottom: 30px;
+  /* height: 50%;  */
+}
+
+.dash-pad{
+  margin-top: 20px !important; 
+  padding: 0 !important;
+  border-radius: 10px !important;
+  background: url(/assets/orange.png) no-repeat;
+  background-size: 60%;
+  background-position: right;
 }
